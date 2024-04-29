@@ -1,6 +1,7 @@
 import React from "react";
 import { BsCardList } from "react-icons/bs";
 import { BsFillGridFill } from "react-icons/bs";
+import { IoBook } from "react-icons/io5";
 
 const Navbar = ({ handleChange }) => {
   return (
@@ -11,11 +12,7 @@ const Navbar = ({ handleChange }) => {
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
-              alt="Flowbite Logo"
-            />
+            <IoBook size={30} className="text-white"/>
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Book Store
             </span>
